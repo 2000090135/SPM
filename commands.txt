@@ -1,0 +1,18 @@
+mkdir practice
+cd practice
+git init
+git clone https://github.com/2000090135/SPM.git
+cd SPM
+notepad commands.txt
+cat commands.txt
+cd ..
+cd ..
+ssh-keygen -t rsa
+cat keyname.pub
+cd practice
+cd SPM
+git status
+git config --global user.email "2000090135csit@gmail.com"
+git config --global user.name "2000090135"
+git commit -m "SPM Skill1"
+git push
